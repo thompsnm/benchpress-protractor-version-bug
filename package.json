@@ -1,0 +1,15 @@
+{
+  "name": "benchpress-protractor-version-bug",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webdriver-manager update; protractor performance/support/protractor.conf.js"
+  },
+  "author": "Nathan Thompson <thompsnm@gmail.com> (https://github.com/thompsnm)",
+  "license": "MIT",
+  "devDependencies": {
+    "benchpress": "^2.0.0-beta.15",
+    "protractor": "^3.2.2"
+  }
+}
